@@ -6,10 +6,10 @@ m = 2, n = 3 -> A(m,n) = 29
 Console.Clear();
 
 Console.WriteLine("Задайте первое число: ");
-int n = Convert.ToInt32(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Задайте второе число: ");
-int m = Convert.ToInt32(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 
 int FunctionAkkerman(int m, int n)
 {
